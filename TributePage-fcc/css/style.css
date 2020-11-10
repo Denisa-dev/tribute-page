@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    margin    : 0;
+}
+
+.back-ground {
+    background-color: hsl(0, 0%, 94%);
+    border-radius   : 0.5%;
+    margin-top      : 30px;
+}
+
+#main {
+    padding: 30px;
+}
+
+#img-div {
+    background-color: white;
+    border-radius   : 0.5%;
+    margin          : 0;
+}
+
+#image {
+    display     : block;
+    max-width   : 100%;
+    max-height  : 100%;
+    margin-left : auto;
+    margin-right: auto;
+    padding-top : 30px;
+}
+
+#img-caption {
+    display       : block;
+    width         : 45%;
+    margin-left   : auto;
+    margin-right  : auto;
+    padding-bottom: 10px;
+    padding-top   : 15px;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 14px;
+    }
+}
+
+#timeline {
+    text-align: left;
+    margin    : auto;
+    max-width : 30%;
+}
+
+h1,
+p,
+li,
+#img-caption {
+    font-family: sans-serif;
+    color      : hsl(0, 4%, 16%);
+}
+
+ul li {
+    margin-bottom: 20px;
+    line-height  : 25px;
+    font-size    : 16px;
+    color        : hsl(0, 5%, 29%);
+    text-align   : left;
+    font-family  : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#queen-life {
+    margin-top   : 70px;
+    margin-bottom: 50px;
+    font-size    : 18px;
+}
+
+i {
+    color: hsl(0, 5%, 29%);
+}
+
+#tribute-info {
+    line-height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#tribute-paragraph-link {
+    padding-top   : 30px;
+    padding-bottom: 30px;
+}
+
+a:link {
+    color: rgb(83, 120, 241);
+}
+
+a:visited {
+    color: rgb(66, 86, 152);
+}
